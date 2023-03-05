@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="Form.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <div class="mobile-screen">
+        <div class="header">
+          <h1>REGISTRO DE CHECADORES</h1>
+        </div>
+        
+        <div class="logo"></div>
+      
+        <form id="login-form" action="registro.php" method="post">
+          <input type="text" id="name" name="nombre" placeholder="Nombre(s)">
+          <input type="text" name="apellido" placeholder="Apellidos">
+          <input type="text" name="edad" placeholder="Edad">
+          <input type="text" name="sexo" placeholder="Sexo" list="sexo">
+          <datalist id="sexo">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Otro">Otro</option>
+          </datalist>
+          <input type="text" name="telefono" placeholder="Telefono">
+          <input type="email" name="correo" placeholder="Correo">
+          <input type="password" name="contrasena" placeholder="Contraseña">
+          <input type="submit" class="login-btn" value="REGISTRAR">
+        </form>
+        
+      </div>
+    </body>
+</html>

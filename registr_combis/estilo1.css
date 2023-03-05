@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body {
+	background-image: url("https://www.eluniversal.com.mx/sites/default/files/u916/balneario_tepathe_hidalgo_2.jpg");
+	background-size: 100%;
+	background-position: center;
+	font-family: Arial, sans-serif;
+  }
+  
+  header {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+  }
+  
+  nav {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav li {
+	display: inline-block;
+	margin-right: 1em;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5em;
+	transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+	background-color: #555;
+  }
+  

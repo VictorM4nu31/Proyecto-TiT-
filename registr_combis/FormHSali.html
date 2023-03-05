@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="FormHSali.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    
+    <div class="mobile-screen">
+        <div class="header">
+          <h1>HORARIO DE SALIDA</h1>
+        </div>
+        
+        <div class="logo"></div>
+      
+        <form id="login-form" action="agregar.php" method="POST">
+          <input type="text" name="id_transporte" placeholder="Id_Transporte" list="id_trans">
+          <datalist id="id_trans">
+            <option value="TR-FRG12">TR-FRG12</option>
+          </datalist>
+          <input type="text" name="ruta" placeholder="Ruta" list="ruta">
+          <datalist id="ruta">
+            <option value="IXMIQUILPAN-TEPHE">IXMIQUILPAN-TEPHE</option>
+          </datalist>
+          <input type="text" name="hr_sal" placeholder="Hora de salida" onfocus="this.type='time'">
+          <input type="text" name="fecha" placeholder="Fecha" onfocus="this.type='date'">
+          <input type="text" name="id_conductor" placeholder="Id_Conductor">
+          <input type="text" name="id_checador" placeholder="Id_Checador">
+          <input type="submit" class="login-btn" value="REGISTRAR">
+        </form>
+        
+      </div>
+    </body>
+</html>
